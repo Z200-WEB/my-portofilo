@@ -772,7 +772,7 @@ const HeroSection = ({ t, scrollY }) => {
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-900/60 via-black to-cyan-900/60" />
 
                 <img
-                  src="/images/hero.png"
+                  src={`${import.meta.env.BASE_URL}images/hero.png`}
                   alt="ZAWE ZAW HTET"
                   className="relative z-10 w-full h-full object-cover object-top"
                   onError={(e) => {
@@ -834,7 +834,7 @@ const BentoSection = ({ t }) => {
                     <div className="relative w-44 h-52 rounded-lg overflow-hidden">
                       <div className="absolute inset-0 bg-gradient-to-br from-cyan-900/60 via-black to-purple-900/60" />
                       <img
-                        src="/images/about.png"
+                        src={`${import.meta.env.BASE_URL}images/about.png`}
                         alt="ZAWE ZAW HTET"
                         className="relative z-10 w-full h-full object-cover object-center"
                         onError={(e) => { e.target.style.display = 'none'; }}
