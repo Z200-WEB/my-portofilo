@@ -1,4 +1,4 @@
-import{r as _e,a as Ty,g as Ay,c as by,j as yt}from"./index-C4-7nHx-.js";/**
+import{r as _e,a as Ty,g as Ay,c as by,j as yt}from"./index-D2d3vSIq.js";/**
  * @license
  * Copyright 2010-2023 Three.js Authors
  * SPDX-License-Identifier: MIT
